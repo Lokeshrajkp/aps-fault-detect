@@ -1,7 +1,7 @@
 import pymongo
 import pandas as pd
 import json
-client=pymongo.MongoClient("mongodb+srv://Loki100:ind100meC@cluster0.ovz7u.mongodb.net/?retryWrites=true&w=majority")
+client=pymongo.MongoClient("")
 db=Client['app']
 Collections=db['Sensor']
 Data_file_path='/config/workspace/aps_failure_training_set1.csv.1'
